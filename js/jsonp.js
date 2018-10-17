@@ -1,13 +1,1 @@
-function jsonp(url, options) {
-    // 创建script标签
-    var $script = document.createElement('script');
-    // 解决缓存问题
-    var f = url.indexOf('?') > - 1 ? '&' : '?';
-    url += f + '_=' + Date.now();
-    //  把参数拼接到url上面
-    for(var i in options) {
-        url += '&' + i + '=' + options[i];
-    }
-    $script.src = url;
-    document.body.appendChild($script);
-}
+"use strict";function jsonp(e,n){var t=document.createElement("script"),c=-1<e.indexOf("?")?"&":"?";for(var o in e+=c+"_="+Date.now(),n)e+="&"+o+"="+n[o];t.src=e,document.body.appendChild(t)}
