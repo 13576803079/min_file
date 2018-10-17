@@ -1,0 +1,42 @@
+/*顶部导航*/
+#top{width: 100%;height: 40px;background: #333;}
+.nav-top{width: 1226px;height: 40px;margin:0 auto;font-size: 12px;}
+  /*顶部左导航*/
+.nav-top .left_nav{height: 40px;float: left;}
+.left_nav li{float: left;}
+.nav-top a{color: #b0b0b0;line-height: 40px;text-align: center;}
+.nav-top .sep{margin: 0 .5em;color: #424242;}
+.nav-top a:hover{color:white}
+  /*顶部右导航*/
+.nav-top .right_nav{width: 285px;height: 40px;float: right;}
+.right_nav li{float: left;}
+.right_nav li a{display:block;width: 40px;height:40px;margin-right:0;box-shadow:none;background: url(../images/bg1.jpg) no-repeat right center;}
+.right_nav li:nth-child(3) a{width: 85px;}
+.nav-top .right_nav li:nth-child(4) a{width: 79px;background:#424242 url(../images/bg1.png) no-repeat 17px center;padding-left: 41px;}
+
+/* main导航 */
+#main_nav{width: 100%;}
+.main_nav{width:1226px;height: 100px;margin: 0 auto;margin: 0 auto;}
+.main_nav .main_navLeft{width: 109px;height: 100px;float: left;}
+.main_nav .main_navLeft img{width: 55px;height: 55px;margin:22px 0 22px 0;}
+.main_nav .main_navCenter{width: 596px;height: 100px;float: left;margin-left: 162px;}
+.main_navCenter li{float: left;}
+.main_navCenter li a{display: block;line-height: 100px;font-size: 14px;margin-right: 20px;color: #333;}
+.main_navCenter li:nth-child(1) a{width: 64px;position: relative;}
+.first_ul{width: 100%;height: 300px;position: absolute;background: #fff;
+	left: 0;top: 140px;border-top: 1px solid #ccc;display: flex;}
+.first_ul li{float: left;text-align: center;align-self: center;
+	width: 250px;position: relative;border-right: 1px solid #ccc;}
+.first_ul li img{width: 150px;height: 160px;margin-top: 40px;margin-left:50px;}
+.first_ul li p{color: #f66000;width: 98px;height: 30px;
+	border: 1px solid #f66000;line-height: 30px;position: absolute;top: 0px;left:75px;}
+.first_ul .child_last{border: 0;}
+.first_ul h3{font-size: 16px;text-align: center;}
+.first_ul span{color: #f66000;font-size: 14px;}
+.first_ul{display: none;z-index: 10;}
+.main_navCenter li a:hover{color: red;}
+.main_navCenter .li1:hover .first_ul{display: block}
+.main_navRight{width: 297px;height: 100px;float: left;margin-left:62px;}
+.main_navRight .text{width: 243px;height: 48px;margin-top:26px;float: left;border: 1px solid #e0e0e0;}
+.main_nav .main_navRight .submit{width: 52px;height:50px;
+	background:url(../images/search_03.png) no-repeat;border: 1px solid #e0e0e0;margin-top:26px;border-left: 0;}
